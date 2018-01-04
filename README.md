@@ -7,10 +7,11 @@ to modify the DNS configuration for a given interface. It mainly use the
 networksetup command line to fetch and set DNS. The ip cli is only use to
 fetch routes.
 
+```bash
 networkconfig                                                                                                                                                                    5:01PM
-//# Please select: 1) getinfo, 2) setdnsservers
+# Please select: 1) getinfo, 2) setdnsservers
 1
-//## Please select the number of the desired interface
+# Please select the number of the desired interface
 1) Thunderbolt Ethernet
 2) Wi-Fi
 3) Bluetooth PAN
@@ -41,3 +42,4 @@ default via 10.XX.XX.254 dev en5
 ### Other routes ###
 127.0.0.0/8 via 127.0.0.1 dev lo0
 164.XX.XX.0/16 via 10.XX.X.1 dev utun1
+```
