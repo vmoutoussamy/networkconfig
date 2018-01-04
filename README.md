@@ -8,7 +8,7 @@ networksetup command line to fetch and set DNS. The ip cli is only use to
 fetch routes.
 
 ```bash
-networkconfig                                                                                                                                                                    5:01PM
+networkconfig
 # Please select: 1) getinfo, 2) setdnsservers
 1
 # Please select the number of the desired interface
