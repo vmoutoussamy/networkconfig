@@ -1,6 +1,6 @@
 # networkconfig
 
-Version 1.0 2018-01-04
+Version 1.5 2019-11-04
 
 This script allow to show network information for macOS in one place and allow
 to modify the DNS configuration for a given interface. It mainly use the
@@ -9,7 +9,7 @@ fetch routes.
 
 ```bash
 networkconfig
-# Please select: 1) getinfo, 2) setdnsservers
+# Please select: 1) getInfo, 2) showDNS, 3) setDNS
 1
 # Please select the number of the desired interface
 1) Thunderbolt Ethernet
